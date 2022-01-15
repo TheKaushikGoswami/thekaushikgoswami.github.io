@@ -73,6 +73,11 @@ git push YOUR_REPO_URL develop
 
 After cloning & setting up the local project you can push the changes to your github fork and make a pull request.
 
+## 🤗 Special Thanks To
+
+- [CTK-Warrior](https://github.com/CTK-WARRIOR/Developer-Portfolio-Template) - For The Base Template of this Portfolio
+- [tsParticles](https://github.com/tsparticles/404-templates) - For The Custom 404 Page
+
 ------
 
 Made with :heart: in India
