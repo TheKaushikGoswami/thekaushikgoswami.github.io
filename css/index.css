@@ -60,27 +60,6 @@ html {
     margin: 15px 0 0 10px;
 }
 
-#fourth-heading h1 {
-    max-width: 1034px;
-    display: flex;
-    font-size: 25px;
-    font-family: monospace;
-    width: 100%;
-    margin-top: 30px
-}
-
-
-#fourth-heading h1:before {
-    content: '';
-    border-top: 2px solid;
-    margin: 0 20px 0 0;
-    flex: 1 0 20px;
-}
-
-#fourth-heading h1:before {
-    margin: 15px 10px 0 0;
-}
-
 /* ---------------------------------- */
 
 /* EFFECTS */
