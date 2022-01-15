@@ -186,31 +186,47 @@ a{
 
 /* -------------------------- */
 
-/* CONTACT ME */
+/* CONNECT WITH ME */
 
+#connect {
+    font-family: monospace;
+    font-size: 25px;
+    display: flex;
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
 
-#contact-me textarea,
-#contact-me input {
-    background-color: #181818;
-    outline: none;
-    border: none;
+#connect:before,
+#connect:after {
+    content: '';
+    border-top: 2px solid;
+    margin: 0 20px 0 0;
+    flex: 1 0 20px;
+}
+
+#connect:after {
+    margin: 0 0 0 20px;
+}
+
+.connect-elements{
+    font-size: 3rem;
     color: gray;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    transition: all .3s;
 }
 
-#contact-me textarea {
-    background: #181818;
-}
-
-
-#contact-me button {
-    font-family: 'Hammersmith One', sans-serif;
-    color: #f35626;
-    background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+.connect-elements:hover {
+    transform: scale(1.1);
+    color: #02aab0;
+    background-image: -webkit-linear-gradient(92deg, #02aab0, #00cdac);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     -webkit-animation: hue 10s infinite linear;
-    outline: none;
-    border: none;
 }
-
 /* -------------------------- */
 
 /* FOOTER */
