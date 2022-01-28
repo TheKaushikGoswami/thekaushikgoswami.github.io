@@ -13,7 +13,8 @@
 <a href="https://thekaushikgoswami.github.io" target="_blank">
     <img src="./readme-assets/Website_Demo.png" align="center" alt="website preview">
 </a><br><br>
-⭐ Star me on GitHub — it helps!
+
+> Make Sure to ⭐ the Repo if You liked it -- It Helps!
 
 ## 📋 Features
 
