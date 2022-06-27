@@ -36,6 +36,7 @@
 - [x] Skills
 - [x] Projects
 - [x] Connect With Me
+- [x] Visitor Count Stats
 - [ ] Experience
 - [ ] Education
 - [ ] Contact Me
@@ -49,6 +50,7 @@ To view a live example, **[click here](https://thekaushikgoswami.github.io/)**
 * [<b>Fontawesome</b>](https://fontawesome.com/)
 * [<b>Google Fonts</b>](https://fonts.google.com/)
 * [<b>Tippy</b>](https://atomiks.github.io/tippyjs/)
+* [<b>Elfsight Visitor Counter Widget</b>](https://elfsight.com/visitor-counter-widget/)
 
 ## 🚀 Contributing 
 
