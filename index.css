@@ -83,6 +83,24 @@ body {
     font-size:70px;
     text-decoration:underline;
 }
+#projects {
+    width: 10vw;
+    height: 10vw;
+    text-align: center;
+    font-size: 25px;
+    background: transparent;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    right: 45vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 4;
+    transition: 0.4s ease-in-out;
+    border-radius: 0px 0px 100px 100px;
+}
+
 #about {
     width:10vw;
     height:10vw;
@@ -135,6 +153,10 @@ body {
     z-index:4;
     transition:0.4s ease-in-out;
     border-radius:100px 100px 0px 0px;
+}
+#projects:hover {
+    background:rgba(255,50,50,0.9);
+    cursor:pointer;
 }
 #about:hover {
     background:rgba(255,50,50,0.9);
@@ -321,6 +343,9 @@ body {
 }
 
 @media (max-width: 800px){ 
+    #projects {
+        display:none;
+    }
     #about {
         display:none;
     }

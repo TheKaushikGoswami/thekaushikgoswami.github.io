@@ -1,3 +1,17 @@
+function showprojects(){
+    $("#projects_container").css("display","inherit");
+    $("#projects_container").addClass("animated slideInDown");
+    setTimeout(function(){
+        $("#projects_container").removeClass("animated slideInDown");
+    },800);
+}
+function closeprojects(){
+    $("#projects_container").addClass("animated slideOutUp");
+    setTimeout(function(){
+        $("#projects_container").removeClass("animated slideOutUp");
+        $("#projects_container").css("display","none");
+    },800);
+}
 function showabout(){
     $("#about_container").css("display","inherit");
     $("#about_container").addClass("animated slideInLeft");
@@ -46,6 +60,7 @@ setTimeout(function(){
       $("#loading").removeClass("animated fadeOut");
       $("#loading").css("display","none");
       $("#box").css("display","none");
+      $("#projects").removeClass("animated fadeIn");
       $("#about").removeClass("animated fadeIn");
       $("#contact").removeClass("animated fadeIn");
       $("#work").removeClass("animated fadeIn");

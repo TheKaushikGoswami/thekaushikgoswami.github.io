@@ -22,23 +22,25 @@
     </div>
     <div id="particles-js"></div>
     <div id="box">
-        <div class="box1 onlywide animated bounceOutLeft" style="animation-delay:1.7s;"></div>
-        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.8s;"></div>
-        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.9s;"></div>
-        <div class="box2 animated bounceOutRight" style="animation-delay:1.9s;"></div>
-        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.8s;"></div>
-        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.7s;"></div>
+        <div class="box1 onlywide animated bounceOutLeft" style="animation-delay: 1700ms;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay: 1800ms;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay: 1900ms;"></div>
+        <div class="box2 animated bounceOutRight" style="animation-delay: 1900ms;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay: 1800ms;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay: 1700ms;"></div>
     </div>
-    <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">about</a>
-    <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">work</a>
-    <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">contact</a>
-    <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
+    <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay: 1000ms;">about</a>
+    <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay: 1000ms;">work</a>
+    <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay: 1000ms;">contact</a>
+    <a id="projects" onclick="showprojects()" class="animated fadeIn" style="animation-delay: 1000ms;">projects</a>
+    <div id="middle" class="animated slideInDown" style="animation-delay: 2000ms;">
         <h1>kaushik.</h1>
         <h2>Developer / Graphic Designer / Human</h2>
         <div id="menu">
             <a onclick="showabout()">about</a>
             <a onclick="showwork()">work</a>
             <a onclick="showcontact()">contact</a>
+            <a onclick="showprojects()">projects</a>
         </div>
         <table>
             <tr>
@@ -52,6 +54,55 @@
                         href="https://github.com/TheKaushikGoswami"><i class="fab fa-github"></i></a></td>
             </tr>
         </table>
+    </div>
+    <div id="projects_container" class="container">
+        <div onclick="closeprojects()"><i class="fas fa-angle-right"></i></div>
+        <h1>projects.</h1>
+        <section>
+            <h2>my work</h2>
+            <p>
+                Here are some of the projects I've worked on recently. Feel free to explore:
+            </p>
+            <ul>
+                <div class="project_card">
+                    <div class="project_info">
+                        <h3>Portfolio</h3>
+                        <p>The Open-Source code for the Personal Portfolio this website is coming from! A minimal and
+                            ambient portfolio template for Developers! ⚡</p>
+                        <button class="btn_one"><a
+                                href="https://github.com/TheKaushikGoswami/thekaushikgoswami.github.io"
+                                style="color: inherit; text-decoration: none"> View Project </a></button>
+                    </div>
+                </div>
+                <div class="project_card">
+                    <div class="project_info">
+                        <h3>Olympus</h3>
+                        <p>An Application commands-based multi-purpose discord bot that can do most of the things that
+                            you require for your discord server.</p>
+                        <button class="btn_one"><a href="https://github.com/TheKaushikGoswami/Olympus"
+                                style="color: inherit; text-decoration: none"> View Project </a></button>
+                    </div>
+                </div>
+                <div class="project_card">
+                    <div class="project_info">
+                        <h3>Modmail Bot</h3>
+                        <p>A simple and efficient discord modmail bot written in Python language, using library named
+                            discord.py without any databse integration.</p>
+                        <button class="btn_one"><a href="https://github.com/TheKaushikGoswami/lyq-hangout-modmail"
+                                style="color: inherit; text-decoration: none"> View Project </a></button>
+                    </div>
+                </div>
+                <div class="project_card">
+                    <div class="project_info">
+                        <h3>Notepad</h3>
+                        <p>A simple Notepad program built with Python and Tkinter. Part of my "100 Days, 100 Programs"
+                            challenge. 😅</p>
+                        <button class="btn_one"><a href="https://github.com/TheKaushikGoswami/Notepad"
+                                style="color: inherit; text-decoration: none"> View Project </a></button>
+                    </div>
+                </div>
+            </ul>
+        </section>
     </div>
     <div id="work_container" class="container">
         <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
@@ -71,7 +122,8 @@
                 <div><i class="fas fa-circle"></i>&nbsp;Content Writing</div>
                 <div><i class="fas fa-circle"></i>&nbsp;Graphic Designing</div>
             </div>
-            <button class="btn_one"><a href="./assets/Resume.pdf" target="_blank" style="color: inherit; text-decoration: none">View
+            <button class="btn_one"><a href="./assets/Resume.pdf" target="_blank"
+                    style="color: inherit; text-decoration: none">View
                     Resume</a></button>
         </section>
     </div>
