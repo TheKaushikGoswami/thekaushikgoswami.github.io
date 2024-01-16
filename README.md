@@ -6,7 +6,7 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/TheKaushikGoswami/thekaushikgoswami.github.io?style=for-the-badge) 
 ![GitHub forks](https://img.shields.io/github/forks/TheKaushikGoswami/thekaushikgoswami.github.io?style=for-the-badge)
-[![Maintenance](https://img.shields.io/maintenance/yes/2023?style=for-the-badge)](https://github.com/TheKaushikGoswami/thekaushikgoswami.github.io/commits/master)
+[![Maintenance](https://img.shields.io/maintenance/yes/2024?style=for-the-badge)](https://github.com/TheKaushikGoswami/thekaushikgoswami.github.io/commits/master)
 [![Website](https://img.shields.io/website?down_color=red&down_message=Offline&style=for-the-badge&up_color=light_green&up_message=Online&url=https%3A%2F%2Fthekaushikgoswami.github.io)](http://thekaushikgoswami.github.io)
 
 ## Website Preview
