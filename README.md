@@ -70,7 +70,7 @@ git add .
 git commit -m "<your commit message here>"
 git push YOUR_REPO_URL develop
 ```
-
+a
 ### Step 3: Create a new pull request 🔃
 
 After cloning & setting up the local project you can push the changes to your github fork and make a pull request (optional).
